@@ -5,3 +5,11 @@
 Based on:
 - OpenAPI Doc 1.0.0 
 - Speakeasy CLI 1.56.0 (2.61.0) https://github.com/speakeasy-api/speakeasy
+
+## 2023-08-31 01:03:11
+### Changes
+Based on:
+- OpenAPI Doc 1.0.0 
+- Speakeasy CLI 1.76.1 (2.89.1) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [php v1.1.0] .
