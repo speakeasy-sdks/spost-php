@@ -30,8 +30,6 @@ composer update
 
 ## SDK Example Usage
 <!-- Start SDK Example Usage -->
-
-
 ```php
 <?php
 
@@ -46,10 +44,10 @@ $sdk = Sendpost::builder()
 
 try {
     $request = new EmailRouterSendEmailRequest();
-    $request->requestBody = 'corrupti';
+    $request->requestBody = 'quibusdam';
     $request->xSendPostMockEmail = false;
-    $request->xSendPostMockTimeShift = 'provident';
-    $request->xSubAccountApiKey = 'distinctio';
+    $request->xSendPostMockTimeShift = 'unde';
+    $request->xSubAccountApiKey = 'nulla';
 
     $response = $sdk->subaccountEmail->emailRouterSendEmail($request);
 
@@ -66,11 +64,23 @@ try {
 ## Available Resources and Operations
 
 
-### [subaccountEmail](docs/sdks/subaccountemail/README.md)
+### [SubaccountEmail](docs/sdks/subaccountemail/README.md)
 
 * [emailRouterSendEmail](docs/sdks/subaccountemail/README.md#emailroutersendemail) - Send Email To Contacts
 * [emailRouterSendEmailWithTemplate](docs/sdks/subaccountemail/README.md#emailroutersendemailwithtemplate) - Send Email To Contacts With Template
 <!-- End SDK Available Operations -->
+
+
+
+<!-- Start Dev Containers -->
+
+
+
+<!-- End Dev Containers -->
+
+<!-- Placeholder for Future Speakeasy SDK Sections -->
+
+
 
 ### Maturity
 

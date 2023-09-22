@@ -1,4 +1,4 @@
-# subaccountEmail
+# SubaccountEmail
 
 ### Available Operations
 
@@ -25,10 +25,10 @@ $sdk = Sendpost::builder()
 
 try {
     $request = new EmailRouterSendEmailRequest();
-    $request->requestBody = 'quibusdam';
+    $request->requestBody = 'corrupti';
     $request->xSendPostMockEmail = false;
-    $request->xSendPostMockTimeShift = 'unde';
-    $request->xSubAccountApiKey = 'nulla';
+    $request->xSendPostMockTimeShift = 'illum';
+    $request->xSubAccountApiKey = 'vel';
 
     $response = $sdk->subaccountEmail->emailRouterSendEmail($request);
 
@@ -72,8 +72,8 @@ $sdk = Sendpost::builder()
 
 try {
     $request = new EmailRouterSendEmailWithTemplateRequest();
-    $request->requestBody = 'corrupti';
-    $request->xSubAccountApiKey = 'illum';
+    $request->requestBody = 'error';
+    $request->xSubAccountApiKey = 'deserunt';
 
     $response = $sdk->subaccountEmail->emailRouterSendEmailWithTemplate($request);
 
