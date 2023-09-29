@@ -1,4 +1,5 @@
 # SubaccountEmail
+(*subaccountEmail*)
 
 ### Available Operations
 
@@ -25,10 +26,10 @@ $sdk = Sendpost::builder()
 
 try {
     $request = new EmailRouterSendEmailRequest();
-    $request->requestBody = 'corrupti';
+    $request->requestBody = ':k13|`asY9';
     $request->xSendPostMockEmail = false;
-    $request->xSendPostMockTimeShift = 'illum';
-    $request->xSubAccountApiKey = 'vel';
+    $request->xSendPostMockTimeShift = 'Recycled';
+    $request->xSubAccountApiKey = 'Supervisor';
 
     $response = $sdk->subaccountEmail->emailRouterSendEmail($request);
 
@@ -72,8 +73,8 @@ $sdk = Sendpost::builder()
 
 try {
     $request = new EmailRouterSendEmailWithTemplateRequest();
-    $request->requestBody = 'error';
-    $request->xSubAccountApiKey = 'deserunt';
+    $request->requestBody = '9hY_GIO^\M';
+    $request->xSubAccountApiKey = 'Identity Fish';
 
     $response = $sdk->subaccountEmail->emailRouterSendEmailWithTemplate($request);
 

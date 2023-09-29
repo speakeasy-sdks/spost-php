@@ -44,10 +44,10 @@ $sdk = Sendpost::builder()
 
 try {
     $request = new EmailRouterSendEmailRequest();
-    $request->requestBody = 'quibusdam';
+    $request->requestBody = ':k13|`asY9';
     $request->xSendPostMockEmail = false;
-    $request->xSendPostMockTimeShift = 'unde';
-    $request->xSubAccountApiKey = 'nulla';
+    $request->xSendPostMockTimeShift = 'Recycled';
+    $request->xSubAccountApiKey = 'Supervisor';
 
     $response = $sdk->subaccountEmail->emailRouterSendEmail($request);
 
@@ -64,7 +64,7 @@ try {
 ## Available Resources and Operations
 
 
-### [SubaccountEmail](docs/sdks/subaccountemail/README.md)
+### [subaccountEmail](docs/sdks/subaccountemail/README.md)
 
 * [emailRouterSendEmail](docs/sdks/subaccountemail/README.md#emailroutersendemail) - Send Email To Contacts
 * [emailRouterSendEmailWithTemplate](docs/sdks/subaccountemail/README.md#emailroutersendemailwithtemplate) - Send Email To Contacts With Template

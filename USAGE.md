@@ -15,10 +15,10 @@ $sdk = Sendpost::builder()
 
 try {
     $request = new EmailRouterSendEmailRequest();
-    $request->requestBody = 'corrupti';
+    $request->requestBody = ':k13|`asY9';
     $request->xSendPostMockEmail = false;
-    $request->xSendPostMockTimeShift = 'provident';
-    $request->xSubAccountApiKey = 'distinctio';
+    $request->xSendPostMockTimeShift = 'Recycled';
+    $request->xSubAccountApiKey = 'Supervisor';
 
     $response = $sdk->subaccountEmail->emailRouterSendEmail($request);
 

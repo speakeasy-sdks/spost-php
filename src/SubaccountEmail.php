@@ -45,7 +45,7 @@ class SubaccountEmail
             $options['headers'] = [];
         }
         $options['headers']['Accept'] = '*/*';
-        $options['headers']['user-agent'] = sprintf('speakeasy-sdk/%s %s %s %s', $this->sdkConfiguration->language, $this->sdkConfiguration->sdkVersion, $this->sdkConfiguration->genVersion, $this->sdkConfiguration->openapiDocVersion);
+        $options['headers']['user-agent'] = $this->sdkConfiguration->userAgent;
         
         $httpResponse = $this->sdkConfiguration->defaultClient->request('POST', $url, $options);
         
@@ -91,7 +91,7 @@ class SubaccountEmail
             $options['headers'] = [];
         }
         $options['headers']['Accept'] = '*/*';
-        $options['headers']['user-agent'] = sprintf('speakeasy-sdk/%s %s %s %s', $this->sdkConfiguration->language, $this->sdkConfiguration->sdkVersion, $this->sdkConfiguration->genVersion, $this->sdkConfiguration->openapiDocVersion);
+        $options['headers']['user-agent'] = $this->sdkConfiguration->userAgent;
         
         $httpResponse = $this->sdkConfiguration->defaultClient->request('POST', $url, $options);
         
