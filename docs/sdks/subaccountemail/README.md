@@ -28,8 +28,8 @@ try {
     $request = new EmailRouterSendEmailRequest();
     $request->requestBody = ':k13|`asY9';
     $request->xSendPostMockEmail = false;
-    $request->xSendPostMockTimeShift = 'Northeast';
-    $request->xSubAccountApiKey = 'primary';
+    $request->xSendPostMockTimeShift = 'string';
+    $request->xSubAccountApiKey = 'string';
 
     $response = $sdk->subaccountEmail->emailRouterSendEmail($request);
 
@@ -74,7 +74,7 @@ $sdk = Sendpost::builder()
 try {
     $request = new EmailRouterSendEmailWithTemplateRequest();
     $request->requestBody = '9hY_GIO^\M';
-    $request->xSubAccountApiKey = 'Kina';
+    $request->xSubAccountApiKey = 'string';
 
     $response = $sdk->subaccountEmail->emailRouterSendEmailWithTemplate($request);
 
