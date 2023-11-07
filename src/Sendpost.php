@@ -17,7 +17,7 @@ namespace sendpost\sendpost;
 class Sendpost
 {
 	public const SERVERS = [
-		'/api/v1',
+		'https:///api/v1',
 	];
   	
 	public SubaccountEmail $subaccountEmail;

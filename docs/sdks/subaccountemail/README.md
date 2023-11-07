@@ -1,5 +1,5 @@
 # SubaccountEmail
-(*subaccountEmail*)
+
 
 ### Available Operations
 
@@ -18,15 +18,15 @@ Send Email To Contacts
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \sendpost\sendpost\Sendpost;
-use \sendpost\sendpost\Models\Operations\EmailRouterSendEmailRequest;
+use \sendpost\sendpost;
+use \sendpost\sendpost\Models\Operations;
 
-$sdk = Sendpost::builder()
+$sdk = sendpost\Sendpost::builder()
     ->build();
 
 try {
-    $request = new EmailRouterSendEmailRequest();
-    $request->requestBody = ':k13|`asY9';
+    $request = new Operations\EmailRouterSendEmailRequest();
+    $request->requestBody = '0x6B34FffDd5';
     $request->xSendPostMockEmail = false;
     $request->xSendPostMockTimeShift = 'string';
     $request->xSubAccountApiKey = 'string';
@@ -65,15 +65,15 @@ Send Email To Contacts With Template
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \sendpost\sendpost\Sendpost;
-use \sendpost\sendpost\Models\Operations\EmailRouterSendEmailWithTemplateRequest;
+use \sendpost\sendpost;
+use \sendpost\sendpost\Models\Operations;
 
-$sdk = Sendpost::builder()
+$sdk = sendpost\Sendpost::builder()
     ->build();
 
 try {
-    $request = new EmailRouterSendEmailWithTemplateRequest();
-    $request->requestBody = '9hY_GIO^\M';
+    $request = new Operations\EmailRouterSendEmailWithTemplateRequest();
+    $request->requestBody = '0x5Ade99aeea';
     $request->xSubAccountApiKey = 'string';
 
     $response = $sdk->subaccountEmail->emailRouterSendEmailWithTemplate($request);

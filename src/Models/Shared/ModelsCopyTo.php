@@ -12,7 +12,7 @@ namespace sendpost\sendpost\Models\Shared;
 class ModelsCopyTo
 {
 	
-    public ?ModelsCopyToCustomFields $customFields = null;
+    public ?CustomFields $customFields = null;
     
 	
     public ?string $email = null;

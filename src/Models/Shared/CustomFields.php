@@ -9,7 +9,7 @@ declare(strict_types=1);
 namespace sendpost\sendpost\Models\Shared;
 
 
-class ModelsEmailMessageGroups
+class CustomFields
 {
 	public function __construct()
 	{

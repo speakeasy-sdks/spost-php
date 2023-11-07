@@ -9,7 +9,7 @@ declare(strict_types=1);
 namespace sendpost\sendpost\Models\Shared;
 
 
-class ModelsCopyToCustomFields
+class Headers
 {
 	public function __construct()
 	{

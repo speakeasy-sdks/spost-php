@@ -26,10 +26,10 @@ class ModelsEmailMessage
     public ?ModelsFrom $from = null;
     
 	
-    public ?ModelsEmailMessageGroups $groups = null;
+    public ?Groups $groups = null;
     
 	
-    public ?ModelsEmailMessageHeaders $headers = null;
+    public ?Headers $headers = null;
     
 	
     public ?string $htmlBody = null;
