@@ -45,12 +45,12 @@ try {
 
 | Parameter                                                                                                                  | Type                                                                                                                       | Required                                                                                                                   | Description                                                                                                                |
 | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                                 | [\sendpost\sendpost\Models\Operations\EmailRouterSendEmailRequest](../../models/operations/EmailRouterSendEmailRequest.md) | :heavy_check_mark:                                                                                                         | The request object to use for the request.                                                                                 |
+| `$request`                                                                                                                 | [\sendpost\sendpost\Models\Operations\EmailRouterSendEmailRequest](../../Models/Operations/EmailRouterSendEmailRequest.md) | :heavy_check_mark:                                                                                                         | The request object to use for the request.                                                                                 |
 
 
 ### Response
 
-**[?\sendpost\sendpost\Models\Operations\EmailRouterSendEmailResponse](../../models/operations/EmailRouterSendEmailResponse.md)**
+**[?\sendpost\sendpost\Models\Operations\EmailRouterSendEmailResponse](../../Models/Operations/EmailRouterSendEmailResponse.md)**
 
 
 ## emailRouterSendEmailWithTemplate
@@ -90,10 +90,10 @@ try {
 
 | Parameter                                                                                                                                          | Type                                                                                                                                               | Required                                                                                                                                           | Description                                                                                                                                        |
 | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                                                         | [\sendpost\sendpost\Models\Operations\EmailRouterSendEmailWithTemplateRequest](../../models/operations/EmailRouterSendEmailWithTemplateRequest.md) | :heavy_check_mark:                                                                                                                                 | The request object to use for the request.                                                                                                         |
+| `$request`                                                                                                                                         | [\sendpost\sendpost\Models\Operations\EmailRouterSendEmailWithTemplateRequest](../../Models/Operations/EmailRouterSendEmailWithTemplateRequest.md) | :heavy_check_mark:                                                                                                                                 | The request object to use for the request.                                                                                                         |
 
 
 ### Response
 
-**[?\sendpost\sendpost\Models\Operations\EmailRouterSendEmailWithTemplateResponse](../../models/operations/EmailRouterSendEmailWithTemplateResponse.md)**
+**[?\sendpost\sendpost\Models\Operations\EmailRouterSendEmailWithTemplateResponse](../../Models/Operations/EmailRouterSendEmailWithTemplateResponse.md)**
 
