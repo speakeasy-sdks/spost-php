@@ -36,7 +36,6 @@ src/Models/Shared/ModelsCopyTo.php
 src/Models/Shared/ModelsReplyTo.php
 src/Models/Shared/ModelsFrom.php
 src/Models/Shared/ModelsAttachment.php
-USAGE.md
 docs/Models/Operations/EmailRouterSendEmailRequest.md
 docs/Models/Operations/EmailRouterSendEmailResponse.md
 docs/Models/Operations/EmailRouterSendEmailWithTemplateRequest.md
@@ -55,4 +54,5 @@ docs/Models/Shared/ModelsFrom.md
 docs/Models/Shared/ModelsAttachment.md
 docs/sdks/sendpost/README.md
 docs/sdks/subaccountemail/README.md
+USAGE.md
 .gitattributes
