@@ -21,15 +21,14 @@ require_once 'vendor/autoload.php';
 use \sendpost\sendpost;
 use \sendpost\sendpost\Models\Operations;
 
-$sdk = sendpost\Sendpost::builder()
-    ->build();
+$sdk = sendpost\Sendpost::builder()->build();
 
 try {
-    $request = new Operations\EmailRouterSendEmailRequest();
+        $request = new Operations\EmailRouterSendEmailRequest();
     $request->requestBody = '0x6B34FffDd5';
     $request->xSendPostMockEmail = false;
     $request->xSendPostMockTimeShift = 'string';
-    $request->xSubAccountApiKey = 'string';
+    $request->xSubAccountApiKey = 'string';;
 
     $response = $sdk->subaccountEmail->emailRouterSendEmail($request);
 
@@ -68,13 +67,12 @@ require_once 'vendor/autoload.php';
 use \sendpost\sendpost;
 use \sendpost\sendpost\Models\Operations;
 
-$sdk = sendpost\Sendpost::builder()
-    ->build();
+$sdk = sendpost\Sendpost::builder()->build();
 
 try {
-    $request = new Operations\EmailRouterSendEmailWithTemplateRequest();
+        $request = new Operations\EmailRouterSendEmailWithTemplateRequest();
     $request->requestBody = '0x5Ade99aeea';
-    $request->xSubAccountApiKey = 'string';
+    $request->xSubAccountApiKey = 'string';;
 
     $response = $sdk->subaccountEmail->emailRouterSendEmailWithTemplate($request);
 
