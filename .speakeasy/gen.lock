@@ -1,0 +1,75 @@
+lockVersion: 2.0.0
+id: a1036389-dba0-44ea-b82d-7342138303fb
+management:
+  docChecksum: bd32215591e3a4d83fe2c9a136049547
+  docVersion: 1.0.0
+  speakeasyVersion: internal
+  generationVersion: 2.225.2
+  releaseVersion: 2.1.0
+  configChecksum: dae89f9bbb639fe0e20da4c6ea805d5c
+  repoURL: https://github.com/speakeasy-sdks/spost-php.git
+  repoSubDirectory: .
+  installationURL: https://github.com/speakeasy-sdks/spost-php
+features:
+  php:
+    core: 3.3.0
+    globalServerURLs: 2.82.1
+generatedFiles:
+  - src/SDKConfiguration.php
+  - src/SubaccountEmail.php
+  - src/Sendpost.php
+  - src/SendpostBuilder.php
+  - composer.json
+  - phpstan.neon
+  - src/Utils/EnumHandler.php
+  - src/Utils/FormMetadata.php
+  - src/Utils/Headers.php
+  - src/Utils/JSON.php
+  - src/Utils/MixedJSONHandler.php
+  - src/Utils/MultipartMetadata.php
+  - src/Utils/ParamsMetadata.php
+  - src/Utils/PathParameters.php
+  - src/Utils/QueryParameters.php
+  - src/Utils/RequestBodies.php
+  - src/Utils/RequestMetadata.php
+  - src/Utils/Security.php
+  - src/Utils/SecurityClient.php
+  - src/Utils/SecurityMetadata.php
+  - src/Utils/SpeakeasyMetadata.php
+  - src/Utils/Utils.php
+  - src/Models/Operations/EmailRouterSendEmailRequest.php
+  - src/Models/Operations/EmailRouterSendEmailResponse.php
+  - src/Models/Operations/EmailRouterSendEmailWithTemplateRequest.php
+  - src/Models/Operations/EmailRouterSendEmailWithTemplateResponse.php
+  - src/Models/Shared/ModelsEmailResponse.php
+  - src/Models/Shared/ModelsEmailErrorCode.php
+  - src/Models/Shared/Groups.php
+  - src/Models/Shared/Headers.php
+  - src/Models/Shared/ModelsEmailMessage.php
+  - src/Models/Shared/ModelsToCustomFields.php
+  - src/Models/Shared/ModelsTo.php
+  - src/Models/Shared/CustomFields.php
+  - src/Models/Shared/ModelsCopyTo.php
+  - src/Models/Shared/ModelsReplyTo.php
+  - src/Models/Shared/ModelsFrom.php
+  - src/Models/Shared/ModelsAttachment.php
+  - docs/Models/Operations/EmailRouterSendEmailRequest.md
+  - docs/Models/Operations/EmailRouterSendEmailResponse.md
+  - docs/Models/Operations/EmailRouterSendEmailWithTemplateRequest.md
+  - docs/Models/Operations/EmailRouterSendEmailWithTemplateResponse.md
+  - docs/Models/Shared/ModelsEmailResponse.md
+  - docs/Models/Shared/ModelsEmailErrorCode.md
+  - docs/Models/Shared/Groups.md
+  - docs/Models/Shared/Headers.md
+  - docs/Models/Shared/ModelsEmailMessage.md
+  - docs/Models/Shared/ModelsToCustomFields.md
+  - docs/Models/Shared/ModelsTo.md
+  - docs/Models/Shared/CustomFields.md
+  - docs/Models/Shared/ModelsCopyTo.md
+  - docs/Models/Shared/ModelsReplyTo.md
+  - docs/Models/Shared/ModelsFrom.md
+  - docs/Models/Shared/ModelsAttachment.md
+  - docs/sdks/sendpost/README.md
+  - docs/sdks/subaccountemail/README.md
+  - USAGE.md
+  - .gitattributes
