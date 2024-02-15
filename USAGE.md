@@ -14,8 +14,8 @@ try {
     $request = new Operations\EmailRouterSendEmailRequest();
     $request->requestBody = '0x6B34FffDd5';
     $request->xSendPostMockEmail = false;
-    $request->xSendPostMockTimeShift = 'string';
-    $request->xSubAccountApiKey = 'string';
+    $request->xSendPostMockTimeShift = '<value>';
+    $request->xSubAccountApiKey = '<value>';
 
     $response = $sdk->subaccountEmail->emailRouterSendEmail($request);
 

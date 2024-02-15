@@ -27,8 +27,8 @@ try {
         $request = new Operations\EmailRouterSendEmailRequest();
     $request->requestBody = '0x6B34FffDd5';
     $request->xSendPostMockEmail = false;
-    $request->xSendPostMockTimeShift = 'string';
-    $request->xSubAccountApiKey = 'string';;
+    $request->xSendPostMockTimeShift = '<value>';
+    $request->xSubAccountApiKey = '<value>';;
 
     $response = $sdk->subaccountEmail->emailRouterSendEmail($request);
 
@@ -72,7 +72,7 @@ $sdk = sendpost\Sendpost::builder()->build();
 try {
         $request = new Operations\EmailRouterSendEmailWithTemplateRequest();
     $request->requestBody = '0x5Ade99aeea';
-    $request->xSubAccountApiKey = 'string';;
+    $request->xSubAccountApiKey = '<value>';;
 
     $response = $sdk->subaccountEmail->emailRouterSendEmailWithTemplate($request);
 
