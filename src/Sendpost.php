@@ -21,8 +21,7 @@ class Sendpost
 	];
   	
 	public SubaccountEmail $subaccountEmail;
-		
-	private SDKConfiguration $sdkConfiguration;
+	
 
 	/**
 	 * Returns a new instance of the SDK builder used to configure and create the SDK instance.
@@ -37,9 +36,9 @@ class Sendpost
 	/**
 	 * @param SDKConfiguration $sdkConfiguration
 	 */
-	public function __construct(SDKConfiguration $sdkConfiguration)
-	{
-		$this->sdkConfiguration = $sdkConfiguration;
+	public function __construct(
+		private SDKConfiguration $sdkConfiguration,
+	) {
 		
 		$this->subaccountEmail = new SubaccountEmail($this->sdkConfiguration);
 	}
